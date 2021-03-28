@@ -1,26 +1,24 @@
 /*#include <stdio.h>
 
-int main (){
-	float valor, valorFinal;
+int main(){
+    float valor,desconto;
+    
+    scanf("%f",&valor);
+    
+    if(valor>=100 && valor<=200){
+        desconto = (valor * 95)/100;
+        printf("%.2f",desconto);
+        
+    }
+    if(valor>200){
+        desconto = (valor * 90)/100;
+        printf("%.2f",desconto);
+    }
+    
+    if(valor<100){
+        printf("%2.f",valor);
+        
+    }
 
-	scanf("%f",&valor);
-	
-	if(valor >=100 && valor < 200){
-		
-		valorFinal = (valor * 95) / 100;
-		
-		printf("%.2f", valorFinal);
-		
-	}else if (valor >= 200){
-			
-		valorFinal = (valor * 90) / 100;
-			
-		printf("%.2f",valorFinal);
-			
-	}else{
-			printf("%.2f",valor);
-	}
-	
-	
-return 0;
-}*/
+}
+*/
