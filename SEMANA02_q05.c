@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main(){
 	
@@ -41,4 +41,4 @@ int main(){
 		printf("%d %d %d %d %d %d",a-1,a,a+1,b-1,b,b+1);
 	}
 	return 0;
-}
+}*/
