@@ -5,13 +5,13 @@ int main(){
   do{
     scanf("%d",&Nv);
     if(Nv>inicio&&Nv>0){
-      printf("  C\n");
+      printf("C\n");
     }else{
       if(Nv==inicio){
-        printf("  --\n");
+        printf("--\n");
       }
       if(Nv<inicio&&Nv>=0){
-        printf("  B\n");
+        printf("B\n");
       }
     }
     inicio=Nv;
@@ -19,5 +19,4 @@ int main(){
   }while(inicio>=0);
 
   return 0;
-}
-*/
+}*/
