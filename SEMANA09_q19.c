@@ -1,15 +1,10 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main(){
   int N,l,c;
   char tipo;
-
-  printf("Digite a dimensão de N: \n");
   scanf("%i",&N);
-
-  printf("SElecione o tipo de matriz: \n");
   scanf(" %c",&tipo);
-
   if(tipo =='d'||tipo=='D'){
     for(l=0;l<N;l++){
       for(c=0;c<N;c++){
@@ -62,4 +57,4 @@ int main(){
     }
   }
 return 0;
-}*/
+}
