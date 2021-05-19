@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main(){
   char frase[50];
@@ -22,4 +22,4 @@ int main(){
 
 
   return 0;
-}*/
+}

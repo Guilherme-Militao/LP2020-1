@@ -19,7 +19,7 @@ int main(){
        printf("\n");
     }
   }
-  if(tipo=='s'||tipo=='C'){
+  if(tipo=='s'||tipo=='S'){
     for(l=0;l<N;l++){
       for(c=0;c<N;c++){
         if(l<=c){
